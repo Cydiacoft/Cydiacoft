@@ -1,0 +1,23 @@
+{
+  "username": "Cydiacoft",
+  "title": "Vernal",
+  "subtitle": "A digital journal of code & quiet discoveries.",
+  "signature": "把灵感写进代码，让日常缓缓生长。",
+  "exploring": [
+    "Thoughtful interfaces",
+    "Creative tools",
+    "Language & learning"
+  ],
+  "projects": [
+    {
+      "repo": "Cydiacoft/Videoder",
+      "label": "Videoder",
+      "description": "A desktop audio & video workshop, built with Flutter and FFmpeg."
+    },
+    {
+      "repo": "Cydiacoft/teaWords",
+      "label": "teaWords · 茶词",
+      "description": "A quiet space for words, translation and everyday learning."
+    }
+  ]
+}
