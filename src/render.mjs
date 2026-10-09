@@ -47,13 +47,11 @@ export function readme(config,data) {
   <img src="assets/hero-light.svg" alt="${xml(config.title)} — ${data.contributions.reduce((a,d)=>a+d.count,0)} public GitHub contributions in 30 UTC days ending ${data.asOf}." width="840">
 </picture>
 
-### Selected work
+**Selected work**
 
-${data.projects.map((p,i)=>`**0${i+1} · [${md(p.label)}](${p.url})**  \n${md(p.description)}  \n<sub>${xml(p.language)}</sub>`).join('\n\n')}
+${data.projects.map(p=>`[${md(p.label)}](${p.url}) — ${md(p.description)}`).join('  \n')}
 
-### Currently exploring
-
-${config.exploring.map(s=>'— '+md(s)).join('  \n')}
+<sub>Currently exploring · ${config.exploring.map(xml).join(' · ')}</sub>
 
 ---
 

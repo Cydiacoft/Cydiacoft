@@ -12,12 +12,12 @@
     {
       "repo": "Cydiacoft/Videoder",
       "label": "Videoder",
-      "description": "A desktop audio & video workshop, built with Flutter and FFmpeg."
+      "description": "Desktop audio & video tools · Flutter + FFmpeg"
     },
     {
       "repo": "Cydiacoft/teaWords",
       "label": "teaWords · 茶词",
-      "description": "A quiet space for words, translation and everyday learning."
+      "description": "Words, translation & daily learning · Kotlin"
     }
   ]
 }

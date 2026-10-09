@@ -5,21 +5,12 @@
   <img src="assets/hero-light.svg" alt="Vernal — 20 public GitHub contributions in 30 UTC days ending 2026-10-09." width="840">
 </picture>
 
-### Selected work
+**Selected work**
 
-**01 · [Videoder](https://github.com/Cydiacoft/Videoder)**  
-A desktop audio & video workshop, built with Flutter and FFmpeg.  
-<sub>C++</sub>
+[Videoder](https://github.com/Cydiacoft/Videoder) — Desktop audio & video tools · Flutter + FFmpeg  
+[teaWords · 茶词](https://github.com/Cydiacoft/teaWords) — Words, translation & daily learning · Kotlin
 
-**02 · [teaWords · 茶词](https://github.com/Cydiacoft/teaWords)**  
-A quiet space for words, translation and everyday learning.  
-<sub>Kotlin</sub>
-
-### Currently exploring
-
-— Thoughtful interfaces  
-— Creative tools  
-— Language & learning
+<sub>Currently exploring · Thoughtful interfaces · Creative tools · Language &amp; learning</sub>
 
 ---
 
