@@ -7,7 +7,7 @@
 
 **Selected work**
 
-[Videoder](https://github.com/Cydiacoft/Videoder) — Desktop audio & video tools · Flutter + FFmpeg  
+[VideoLab](https://github.com/Cydiacoft/VideoLab) — Desktop audio & video tools · WinUI3 + FFmpeg  
 [teaWords · 茶词](https://github.com/Cydiacoft/teaWords) — Words, translation & daily learning · Kotlin
 
 <sub>Currently exploring · Thoughtful interfaces · Creative tools · Language &amp; learning</sub>
