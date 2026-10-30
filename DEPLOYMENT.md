@@ -6,7 +6,6 @@ Node.js 22 · zero npm dependencies · GitHub Profile README.
 
 使用 Node.js 22，执行 `npm test` 和 `npm run generate`。无需 npm install。
 生成时需要进程环境变量 GITHUB_TOKEN；不要把令牌写入文件或提交。
-本机已校验的便携 Node 位于 work/node-v22.23.3-win-x64/node.exe。
 PowerShell 可在进程内从已登录的 gh 读取令牌，运行后立即清除：
 
 ```powershell
@@ -14,14 +13,15 @@ $env:TEMP = "$PWD\work"
 $env:TMP = $env:TEMP
 $env:npm_config_cache = "$PWD\work\npm-cache"
 $env:GITHUB_TOKEN = gh auth token
-try { & .\work\node-v22.23.3-win-x64\node.exe src/generate.mjs }
+try { node src/generate.mjs }
 finally { Remove-Item Env:GITHUB_TOKEN }
 ```
 
 ## 配置与视觉
 
 profile.config.json 配置用户名、标题、副标题、签名、探索方向及精选仓库。
-项目仓库名已通过已登录 GitHub 账号核实：Cydiacoft/Videoder、Cydiacoft/teaWords。
+当前用户名为 echoinzephyr；精选项目为 echoinzephyr/VideoLab、echoinzephyr/teaWords。
+VideoLab 的名称与技术介绍和 README 保持一致。
 探索方向与签名是本项目的编辑文案，可随时修改，不来自私人使用记录。
 840×400 Hero：48px 内边距、Georgia 标题、系统无衬线正文、蓝色 1.6px 折线。
 浅色 #fbfcfe / #2c65b3；深色 #0d1117 / #79afff。
@@ -48,8 +48,10 @@ README 只更新 vernal 标记包围的区块；首次遇到已有正文会追�
 
 ## 发布与自动更新
 
-Profile 仓库必须公开、名称等于用户名：Cydiacoft/Cydiacoft；README 位于默认 main 分支根目录。
-本地已确认账号与空目录，发布前再次检查远端，若同名仓库新出现则先读取并合并，禁止强推。
+Profile 仓库必须公开、名称等于用户名：echoinzephyr/echoinzephyr；README 位于默认 main 分支根目录。
+账号改名后，须同步修改 Profile 仓库名称、profile.config.json 中的 username 和项目 repo。
+修改 README 的项目名称或介绍时，也要更新 profile.config.json，以免自动生成时被覆盖。
+发布前检查远端并保留已有内容，禁止强推。
 推送前检查暂存清单，只包含本项目源文件、文档、测试、工作流和生成图片；work 完全排除。
 
 工作流每天 02:23 UTC（香港 10:23）刷新，也支持手动触发。

@@ -1,5 +1,5 @@
 {
-  "username": "Cydiacoft",
+  "username": "echoinzephyr",
   "title": "Vernal",
   "subtitle": "A digital journal of code & quiet discoveries.",
   "signature": "把灵感写进代码，让日常缓缓生长。",
@@ -10,12 +10,12 @@
   ],
   "projects": [
     {
-      "repo": "Cydiacoft/Videoder",
-      "label": "Videoder",
-      "description": "Desktop audio & video tools · Flutter + FFmpeg"
+      "repo": "echoinzephyr/VideoLab",
+      "label": "VideoLab",
+      "description": "Desktop audio & video tools · WinUI3 + FFmpeg"
     },
     {
-      "repo": "Cydiacoft/teaWords",
+      "repo": "echoinzephyr/teaWords",
       "label": "teaWords · 茶词",
       "description": "Words, translation & daily learning · Kotlin"
     }
